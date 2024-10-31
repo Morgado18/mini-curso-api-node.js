@@ -14,6 +14,6 @@ const PORT = 3001
     }
 }) */
  
-    app.listen(PORT, function(){
-        console.log(`Server rodando no endereço: http://localhost:${PORT}`)
-    })
+app.listen(PORT, function(){
+    console.log(`Server rodando no endereço: http://localhost:${PORT}`)
+})
