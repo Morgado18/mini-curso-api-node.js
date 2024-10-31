@@ -1,7 +1,7 @@
 
 import app from "./src/app.js"
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001 // para usar a porta default do node-js ou a 3001
 
 /* import conexao from "./infra/conexao.js" */
 
