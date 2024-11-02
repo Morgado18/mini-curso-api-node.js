@@ -15,5 +15,6 @@ const PORT = process.env.PORT || 3001 // para usar a porta default do node-js ou
 }) */
  
 app.listen(PORT, function(){
-    console.log(`Server rodando no endereço: http://localhost:${PORT}`)
+    /* console.log(`Server rodando no endereço: http://localhost:${PORT}`) */
+    console.log(`Server rodando no endereço: http://192.168.150.213:${PORT}`)
 })
